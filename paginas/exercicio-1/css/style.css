@@ -28,3 +28,6 @@ footer {
     border: 4px solid #aeaeae;
     border-radius: 50%;
 }
+#decoracao {
+    text-decoration: none;
+}
