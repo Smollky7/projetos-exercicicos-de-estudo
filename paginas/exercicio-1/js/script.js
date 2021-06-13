@@ -9,7 +9,6 @@ function carregar() {
     var data = new Date();
     var horas =  data.getHours();
     var minutos = data.getMinutes();
-    var segundos = data.getSeconds();
     var dia = data.getDate();
     var semana = data.getDay();
     var mes = data.getMonth();
@@ -17,7 +16,7 @@ function carregar() {
 
     msgdia.innerHTML = dia;
     msgano.innerHTML = ano;
-    msghorario.innerHTML = `${horas} : ${minutos} : ${segundos}`
+    msghorario.innerHTML = `${horas} : ${minutos}`
 
     switch (mes) {
         case 0:
