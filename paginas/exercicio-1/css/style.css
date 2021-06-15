@@ -31,3 +31,23 @@ footer {
 #decoracao {
     text-decoration: none;
 }
+@media screen and (max-width:768px) {
+    body {
+        font: normal 13pt Arial;
+        text-align: center;
+    }
+    section {
+        padding: 10px;
+    }
+    img {
+        width: 150px;
+        margin-top: 10px;
+    }
+    h5 {
+        margin-top: 40px;
+    }
+    .projetos {
+        height: 100px;
+        width: 100px;
+    }
+}
