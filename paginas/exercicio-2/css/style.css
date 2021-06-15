@@ -33,6 +33,10 @@ img {
     }
     section {
         padding: 10px;
+        width: 350px;
+    }
+    #imagens {
+        border: 4px solid #aeaeae;
     }
     img {
         width: 150px;
@@ -44,5 +48,10 @@ img {
     .projetos {
         height: 100px;
         width: 100px;
+    }
+    .voltar {
+        width: 50px;
+        margin-top: 5px;
+        border: 2px solid #aeaeae;
     }
 }
