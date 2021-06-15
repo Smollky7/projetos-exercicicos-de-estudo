@@ -5,6 +5,7 @@ body {
 }
 header {
     color: white;
+    text-align: center;
 }
 section {
     background: white;
@@ -19,6 +20,7 @@ section {
 footer {
     color: white;
     font-style: italic;
+    text-align: center;
 }
 img {
     border-radius: 50%;
@@ -45,4 +47,24 @@ h5 {
 .projetos:hover {
     background: rgba(0, 0, 255, 0.219);
     box-shadow: 5px 5px 20px black;
+}
+@media screen and (max-width:768px) {
+    body {
+        font: normal 13pt Arial;
+        text-align: center;
+    }
+    section {
+        padding: 10px;
+    }
+    img {
+        width: 150px;
+        margin-top: 10px;
+    }
+    h5 {
+        margin-top: 40px;
+    }
+    .projetos {
+        height: 100px;
+        width: 100px;
+    }
 }

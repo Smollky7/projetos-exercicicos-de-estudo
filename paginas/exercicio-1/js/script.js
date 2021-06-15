@@ -16,7 +16,7 @@ function carregar() {
 
     msgdia.innerHTML = dia;
     msgano.innerHTML = ano;
-    msghorario.innerHTML = `${horas} : ${minutos}`
+    msghorario.innerHTML = `${horas} : ${minutos}`;
 
     switch (mes) {
         case 0:
