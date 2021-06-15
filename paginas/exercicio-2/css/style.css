@@ -49,7 +49,7 @@ img {
         height: 100px;
         width: 100px;
     }
-    .voltar {
+    #voltar {
         width: 50px;
         margin-top: 5px;
         border: 2px solid #aeaeae;
