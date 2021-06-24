@@ -16,7 +16,15 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.301);
     color: rgb(0, 0, 255);
 }
-
+li {
+    text-align: left;
+}
+JsCV {
+    background-color: rgba(0, 0, 255, 0.356);
+}
+jsM {
+    background-color: rgba(140, 0, 255, 0.356);
+}
 footer {
     color: white;
     font-style: italic;
@@ -32,7 +40,7 @@ h5 {
     margin-top: 65px;
     color: black;
 }
-.projetosCV {
+.projetosJsCV {
     display: inline-block;
     background-color: rgba(0, 0, 255, 0.356);
     border: 2px solid black;
@@ -43,11 +51,11 @@ h5 {
     width: 150px;
     border-radius: 20;
 }
-.projetosCV:hover {
+.projetosJsCV:hover {
     background: rgba(0, 0, 255, 0.219);
     box-shadow: 5px 5px 20px black;
 }
-.projetosM {
+.projetosJsM {
     display: inline-block;
     background-color: rgba(140, 0, 255, 0.356);
     border: 2px solid black;
@@ -58,7 +66,7 @@ h5 {
     width: 150px;
     border-radius: 20;
 }
-.projetosM:hover {
+.projetosJsM:hover {
     background: rgba(140, 0, 255, 0.219);
     box-shadow: 5px 5px 20px black;
 }
