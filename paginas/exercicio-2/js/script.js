@@ -12,7 +12,7 @@ function verificar() {
     
 
     if (txtAno.value.length == 0 || txtAno.value > ano) {
-        alert('[ERRO] Idade invalida [ERRO]');
+        alert('⚠️ Idade invalida ⚠️');
     } else {
 
         if (sex[0].checked) {

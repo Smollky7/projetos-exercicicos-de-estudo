@@ -11,7 +11,7 @@ section {
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 400px;
+    width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.301);
     color: rgb(0, 0, 255);
@@ -32,7 +32,7 @@ h5 {
     margin-top: 65px;
     color: black;
 }
-.projetos {
+.projetosCV {
     display: inline-block;
     background-color: rgba(0, 0, 255, 0.356);
     border: 2px solid black;
@@ -42,10 +42,24 @@ h5 {
     height: 150px;
     width: 150px;
     border-radius: 20;
-
 }
-.projetos:hover {
+.projetosCV:hover {
     background: rgba(0, 0, 255, 0.219);
+    box-shadow: 5px 5px 20px black;
+}
+.projetosM {
+    display: inline-block;
+    background-color: rgba(140, 0, 255, 0.356);
+    border: 2px solid black;
+    box-shadow: 5px 5px 20px rgba(140, 0, 255, 0.356);
+    margin: auto;
+    margin-top: 12px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20;
+}
+.projetosM:hover {
+    background: rgba(140, 0, 255, 0.219);
     box-shadow: 5px 5px 20px black;
 }
 @media screen and (max-width:768px) {
@@ -64,7 +78,7 @@ h5 {
     h5 {
         margin-top: 30px;
     }
-    .projetos {
+    .projetosCV, .projetosM {
         height: 100px;
         width: 100px;
     }

@@ -5,15 +5,15 @@ function contar() {
     let resultado = document.getElementById('res');
 
     if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
-        alert('[ERRO] Está faltando dados [ERRO]');
-        resultado.innerHTML = 'Falha de dados!'
+        alert('⚠️ Está faltando dados ⚠️');
+        resultado.innerHTML = ' ⚠️ Falha de dados! ⚠️'
     } else {
         resultado.innerHTML = '<strong>Contando:</strong> <br>'
         let i = Number(inicio.value);
         let f = Number(fim.value);
         let p = Number(passo.value);
         if (p <= 0) {
-            alert('Passo invalido! Passo se torna 1');
+            alert('⚠️ Passo invalido! Passo se torna 1 ⚠️');
             p = 1; 
         }
 

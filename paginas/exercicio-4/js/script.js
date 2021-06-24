@@ -2,7 +2,7 @@ function tab() {
     let numero = document.getElementById('txtn');
     let tabuada = document.getElementById('seltab');
     if (numero.value.length == 0) {
-        alert('Por favor digite um numero valido!');
+        alert('⚠️ Por favor digite um numero valido! ⚠️');
     } else {
         let n = Number(numero.value);
         let c = 1;
