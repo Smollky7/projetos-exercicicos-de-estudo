@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo</title>
+    <title>Lampada </title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Carregando...</h1>
+      <h1 id="titulo">Lampada</h1>
     </header>
     <section>
         <div>
-            <p>Projeto em andamento, aguarde</p>
+            <img id="img" src="img/apagada.png" alt="lampada"/>
         </div>
         <div>
-
+            <input type="submit" name="On" value="On" onclick="On()" class="bottom" id="On"/>
+            <input type="button" name="Off" value="Off" onclick="Off()" class="bottom" id="Off"/>
         </div>
     </section>
     <footer>
-        <p>&copy; Smollkyzinho</p>
+        <p id="copy">&copy; Smollkyzinho</p>
         <a href="../../index.html"><img id="voltar" src="img/voltar.png" alt="botão voltar."></a>
     </footer>
     <script src="js/script.js"></script>
