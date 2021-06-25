@@ -2,7 +2,6 @@ function carregar() {
     var msgdia = window.document.getElementById('dia');
     var msgmes = window.document.getElementById('mes');
     var msgano = window.document.getElementById('ano');
-    var msgceu = window.document.getElementById('ceu');
     var msghorario = window.document.getElementById('horario');
     var msgsemana = window.document.getElementById('samana');
     var img = window.document.getElementById('imagens');
